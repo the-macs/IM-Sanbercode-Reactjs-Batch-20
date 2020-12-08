@@ -1,6 +1,6 @@
 Data Peserta Sanbercode Bootcamp ReactJS
 1. Nama: Esa Hadistra
 2. Email: esahadistra@gmail.com
-3. Sistem Operasi yang digunakan: macOS
+3. Sistem Operasi yang digunakan: macOSX
 4. Akun Gitlab: the-macs
 5. Akun Telegram: @esahd_94
