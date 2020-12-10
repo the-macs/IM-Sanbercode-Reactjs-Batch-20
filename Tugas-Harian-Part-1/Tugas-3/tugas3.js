@@ -41,9 +41,9 @@ var nilai = 89;
 var score = '';
 
 if (nilai >= 80) score = 'A'
-else if (nilai >= 70) score = 'B'
-else if (nilai >= 60) score = 'C'
-else if (nilai >= 50) score = 'D'
+else if (nilai >= 70 && nilai < 80) score = 'B'
+else if (nilai >= 60 && nilai < 70) score = 'C'
+else if (nilai >= 50 && nilai < 60) score = 'D'
 else if (nilai < 50) score = 'E'
 
 console.log(score)
