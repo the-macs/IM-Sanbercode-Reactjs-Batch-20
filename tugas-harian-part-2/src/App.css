@@ -4,15 +4,52 @@
 }
 
 table {
+  /* text-align: left; */
+  margin: 0px auto;
+  width: 50%;
+}
+
+table#tugas9 {
+  width: 25%;
+  border-radius: 20px;
+}
+
+table#tugas9-inner {
+  margin: 0px;
+  width: 100%;
+}
+
+table#tugas9-inner tr th {
+  padding-left: 15px;
+}
+
+table td {
+  text-align: left;
+}
+
+table#tugas10 td {
+  background-color: tomato;
+}
+
+h1 {
+  background-color: turquoise;
+  padding: 10px 0px;
+}
+
+button {
+  margin: 15px;
+  border-radius: 20px;
+}
+/* table td #tugas9 {
+
+} */
+/* table {
   border-collapse: separate;
   border-spacing: 20px;
   border-radius: 20px;
 }
 
-table th,
-td {
-  text-align: left;
-}
+
 
 /* input[type="text"] {
   width: 100%;
