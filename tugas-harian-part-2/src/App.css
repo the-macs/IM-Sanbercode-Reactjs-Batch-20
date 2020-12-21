@@ -36,9 +36,21 @@ h1 {
   padding: 10px 0px;
 }
 
+h1.t11 {
+  color: whitesmoke;
+  background-color: #2196f3;
+  padding: 10px 0px;
+}
+
 button {
   margin: 15px;
   border-radius: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196f3;
 }
 /* table td #tugas9 {
 

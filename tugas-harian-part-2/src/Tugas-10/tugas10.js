@@ -15,21 +15,24 @@ class ListHargaBuah extends React.Component {
         <h1>TUGAS-10</h1>
         <h2>Table Harga Buah</h2>
         <table border="1" id="tugas10">
-          <tr style={{ backgroundColor: "grey" }}>
-            <th>Nama</th>
-            <th>Harga</th>
-            <th>Berat</th>
-          </tr>
-
-          {dataHargaBuah.map((el) => {
-            return (
-              <tr>
-                <td>{el.nama}</td>
-                <td>{el.harga}</td>
-                <td>{el.berat / 1000} kg</td>
-              </tr>
-            );
-          })}
+          <thead>
+            <tr style={{ backgroundColor: "grey" }}>
+              <th>Nama</th>
+              <th>Harga</th>
+              <th>Berat</th>
+            </tr>
+          </thead>
+          <tbody>
+            {dataHargaBuah.map((el, i) => {
+              return (
+                <tr key={i}>
+                  <td>{el.nama}</td>
+                  <td>{el.harga}</td>
+                  <td>{el.berat / 1000} kg</td>
+                </tr>
+              );
+            })}
+          </tbody>
         </table>
       </>
     );
