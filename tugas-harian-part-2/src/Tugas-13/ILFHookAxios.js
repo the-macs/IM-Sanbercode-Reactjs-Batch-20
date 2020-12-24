@@ -35,9 +35,9 @@ const ILFHookAxios = () => {
   });
 
   const handleChange = (e) => {
-    if ([e.target.name] == "name") setinputName(e.target.value);
-    else if ([e.target.name] == "price") setinputPrice(e.target.value);
-    else if ([e.target.name] == "weight") setinputWeight(e.target.value);
+    if ([e.target.name] === "name") setinputName(e.target.value);
+    else if ([e.target.name] === "price") setinputPrice(e.target.value);
+    else if ([e.target.name] === "weight") setinputWeight(e.target.value);
   };
 
   const handleSubmit = (e) => {
