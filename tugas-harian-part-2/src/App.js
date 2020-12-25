@@ -6,6 +6,7 @@ import "./App.css";
 // import TimeCountdown from "./Tugas-11/timeCountdown";
 // import InputListForm from "./Tugas-12/inputListForm";
 import ILFHookAxios from "./Tugas-13/ILFHookAxios";
+import FooterClock from "./FooterClock";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TimeCountdown start={100} />
       <InputListForm /> */}
       <ILFHookAxios />
+      <FooterClock />
     </div>
   );
 }

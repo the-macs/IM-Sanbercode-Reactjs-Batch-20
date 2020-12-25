@@ -35,9 +35,9 @@ const ILFHookAxios = () => {
   });
 
   const handleChange = (e) => {
-    if ([e.target.name] === "name") setinputName(e.target.value);
-    else if ([e.target.name] === "price") setinputPrice(e.target.value);
-    else if ([e.target.name] === "weight") setinputWeight(e.target.value);
+    if ([e.target.name] == "name") setinputName(e.target.value);
+    else if ([e.target.name] == "price") setinputPrice(e.target.value);
+    else if ([e.target.name] == "weight") setinputWeight(e.target.value);
   };
 
   const handleSubmit = (e) => {
@@ -195,36 +195,44 @@ const ILFHookAxios = () => {
                           </tr>
                         </thead>
                         <tbody>
-                          {dataHargaBuah.map((el, i) => {
-                            return (
-                              <tr key={i}>
-                                <td>{i + 1}</td>
-                                <td>{el.name}</td>
-                                <td>{numberFormat(el.price)}</td>
-                                <td>{el.weight / 1000} kg</td>
-                                <td className="tdAct">
-                                  <button
-                                    type="button"
-                                    className="custom-button edit-button"
-                                    onClick={handleEdit}
-                                    value={el.id}
-                                    href="?"
-                                  >
-                                    Ubah
-                                  </button>
-                                  <button
-                                    type="button"
-                                    className="custom-button delete-button"
-                                    onClick={handleDelete}
-                                    value={el.id}
-                                    href="?"
-                                  >
-                                    Hapus
-                                  </button>
-                                </td>
-                              </tr>
-                            );
-                          })}
+                          {dataHargaBuah.length !== 0 ? (
+                            dataHargaBuah.map((el, i) => {
+                              return (
+                                <tr key={i}>
+                                  <td>{i + 1}</td>
+                                  <td>{el.name}</td>
+                                  <td>{numberFormat(el.price)}</td>
+                                  <td>{el.weight / 1000} kg</td>
+                                  <td className="tdAct">
+                                    <button
+                                      type="button"
+                                      className="custom-button edit-button"
+                                      onClick={handleEdit}
+                                      value={el.id}
+                                      href="?"
+                                    >
+                                      Ubah
+                                    </button>
+                                    <button
+                                      type="button"
+                                      className="custom-button delete-button"
+                                      onClick={handleDelete}
+                                      value={el.id}
+                                      href="?"
+                                    >
+                                      Hapus
+                                    </button>
+                                  </td>
+                                </tr>
+                              );
+                            })
+                          ) : (
+                            <tr>
+                              <td colSpan="5" height="100px">
+                                No Data
+                              </td>
+                            </tr>
+                          )}
                         </tbody>
                       </table>
                       <p align="left">
