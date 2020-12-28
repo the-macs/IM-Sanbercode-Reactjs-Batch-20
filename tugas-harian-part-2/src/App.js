@@ -5,7 +5,8 @@ import "./App.css";
 // import ListHargaBuah from "./Tugas-10/tugas10";
 // import TimeCountdown from "./Tugas-11/timeCountdown";
 // import InputListForm from "./Tugas-12/inputListForm";
-import ILFHookAxios from "./Tugas-13/ILFHookAxios";
+// import ILFHookAxios from "./Tugas-13/ILFHookAxios";
+import Buah from "./Tugas-14/Buah";
 import FooterClock from "./FooterClock";
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <ListHargaBuah />
       <TimeCountdown start={100} />
       <InputListForm /> */}
-      <ILFHookAxios />
+      {/* <ILFHookAxios /> */}
+      <Buah />
       <FooterClock />
     </div>
   );
