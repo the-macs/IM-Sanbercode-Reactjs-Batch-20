@@ -114,11 +114,11 @@ const ILFHookAxios = () => {
           <h1
             style={{
               backgroundColor: "turquoise",
-              padding: "20px 0",
+              padding: "5px 0",
               marginTop: "0px",
             }}
           >
-            TUGAS-12
+            TUGAS-13
           </h1>
           <form onSubmit={handleSubmit}>
             <div className="grid grid-container-2">

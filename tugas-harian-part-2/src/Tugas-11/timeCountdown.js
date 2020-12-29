@@ -38,7 +38,15 @@ class TimeCountdown extends Component {
   render() {
     return (
       <>
-        <h1>TUGAS-11</h1>
+        <h1
+          style={{
+            backgroundColor: "turquoise",
+            padding: "5px 0",
+            marginTop: "0px",
+          }}
+        >
+          TUGAS-11
+        </h1>
         {this.state.time !== 0 ? (
           <div className="grid-container">
             <h1 className="t11" style={{ textAlign: "center" }}>

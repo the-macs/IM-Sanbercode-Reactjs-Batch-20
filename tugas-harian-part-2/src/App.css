@@ -1,6 +1,14 @@
+* {
+  outline: none;
+}
+
 .App {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin-top: 5em;
 }
 
 table {
@@ -171,6 +179,16 @@ footer {
   text-align: left;
   padding-left: 20px;
   font-style: italic;
+  transition: 1s;
+}
+
+footer.dark {
+  background-color: darkslategray;
+  transition: 1s;
+}
+footer.dark h3 {
+  color: white;
+  transition: 1s;
 }
 
 footer h5 {
@@ -178,4 +196,73 @@ footer h5 {
   vertical-align: middle;
   text-align: center;
   padding: 20px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto auto 5%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: turquoise;
+  transition: 1s;
+}
+
+header.dark {
+  background-color: darkslategray;
+  color: white;
+  transition: 1s;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  float: right;
+  vertical-align: middle;
+
+  /* overflow: hidden; */
+  /* background-color: #333333; */
+}
+
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: 1s;
+}
+
+ul.dark li a {
+  color: white;
+  transition: 1s;
+}
+
+.btnTheme {
+  background-color: seashell;
+  border: none;
+  font-weight: bold;
+  color: black;
+  transition: 1s;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btnTheme:focus {
+  border: none;
+}
+
+.btndark {
+  background-color: darkolivegreen;
+  color: antiquewhite;
+  transition: 1s;
 }

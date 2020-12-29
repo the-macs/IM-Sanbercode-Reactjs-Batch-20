@@ -99,7 +99,7 @@ class InputListForm extends React.Component {
         <h1
           style={{
             backgroundColor: "turquoise",
-            padding: "20px 0",
+            padding: "5px 0",
             marginTop: "0px",
           }}
         >

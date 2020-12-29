@@ -12,7 +12,15 @@ class ListHargaBuah extends React.Component {
   render() {
     return (
       <>
-        <h1>TUGAS-10</h1>
+        <h1
+          style={{
+            backgroundColor: "turquoise",
+            padding: "5px 0",
+            marginTop: "0px",
+          }}
+        >
+          TUGAS-11
+        </h1>
         <h2>Table Harga Buah</h2>
         <table border="1" id="tugas10">
           <thead>
