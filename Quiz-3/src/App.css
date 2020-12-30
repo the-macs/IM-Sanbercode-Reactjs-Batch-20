@@ -1,0 +1,200 @@
+* {
+  outline: none;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url("./assets/pattern.jpg");
+  margin: 0;
+}
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav {
+  text-align: center;
+}
+nav ul {
+  text-align: center;
+  float: right;
+  /* overflow: hidden; */
+  /* background-color: #333333; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  justify-content: center;
+  width: 50%;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+section h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+#article-list {
+  text-align: justify;
+}
+
+#article-list p {
+  padding-bottom: 1em;
+  border-bottom: 1px solid;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 4em;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer h5 {
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.grid {
+  /* background-color: #2196f3; */
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: honeydew;
+  padding: 10px;
+  font-size: 18px;
+}
+
+table td {
+  padding: 5px 0;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+.custom-button {
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 2px 0;
+  font-weight: bold;
+}
+
+.edit-button {
+  border-bottom: 1px solid slategray;
+  background-color: sandybrown;
+  transition: background-color 0.5s;
+}
+
+.edit-button:hover {
+  background-color: wheat;
+}
+
+.delete-button {
+  background-color: tomato;
+  transition: background-color 0.5s;
+}
+
+.delete-button:hover {
+  background-color: wheat;
+}
+
+a {
+  cursor: pointer;
+}
+
+.buttonLong {
+  width: 100%;
+  padding: 8px 0px;
+  font-size: 20px;
+  background-color: turquoise;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.buttonLong:hover {
+  background-color: darkturquoise;
+  /* color: whitesmoke; */
+}
+
+.form-group {
+  padding: 10px 0;
+}
+
+label {
+  padding-left: 20px;
+  padding-top: 5px;
+  vertical-align: bottom;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
