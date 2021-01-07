@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./components/style/layout.css";
+import "./components/style/card.css";
+import "./components/style/search.css";
+import "antd/dist/antd.css";
+
+import { MorevProvider } from "./components/Context";
+
+import { BrowserRouter as Router } from "react-router-dom";
+
+import Topbar from "./components/_layout/Topbar";
+import Contents from "./components/_layout/Contents";
+
+import { Layout } from "antd";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MorevProvider>
+      <Layout style={{ minHeight: "100vh" }}>
+        <Router>
+          <Topbar />
+          <Contents />
+        </Router>
+      </Layout>
+    </MorevProvider>
   );
 }
 

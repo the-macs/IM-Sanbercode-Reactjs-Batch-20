@@ -1,0 +1,38 @@
+.lr-section {
+  margin-top: 10%;
+}
+
+.ant-tabs-nav::before {
+  border-bottom: none !important;
+}
+
+.ant-tabs-tab-btn {
+  color: white;
+  font-weight: bold !important;
+}
+
+.ant-input-prefix {
+  margin-right: 12px;
+}
+
+.lg-btn {
+  display: block !important;
+  width: 100% !important;
+  font-weight: bold;
+  background: #1890ff;
+  border-color: #1890ff;
+  color: white;
+  transition: background 1s;
+  padding: 5px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lg-btn:hover {
+  background: #44a5ff;
+  color: white;
+}
+
+.lr-tab {
+  min-width: 20%;
+}

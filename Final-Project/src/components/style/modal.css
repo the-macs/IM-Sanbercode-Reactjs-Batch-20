@@ -1,0 +1,33 @@
+.ant-modal-content {
+  background-color: #1a202c !important;
+}
+
+.ant-modal-body {
+  padding: 0;
+}
+
+.modal-content {
+  color: white;
+}
+
+.modal-title {
+  padding: 0 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.ant-divider {
+  margin-top: 10px !important;
+  border-width: 0.5rem;
+}
+
+.modal-description {
+  color: #1890ff;
+  padding: 10px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.modal-description strong {
+  color: white;
+}

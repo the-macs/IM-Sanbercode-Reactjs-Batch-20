@@ -1,0 +1,68 @@
+.gm-card {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border: none !important;
+  background-color: #001529 !important;
+  transition: transform 0.4s;
+  cursor: pointer;
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+.gm-card:hover {
+  transform: scale(1.05);
+}
+
+.ant-card-cover img {
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+  max-width: 99% !important;
+  margin: auto;
+  object-fit: cover;
+  height: 420px;
+}
+
+.ant-card-body {
+  padding: 0px !important;
+}
+
+.gm-card-meta {
+  padding: 24px 0 24px 12px !important;
+}
+
+.ant-card-meta-description {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.gm-card-rating {
+  display: block;
+  background-color: rgb(54, 77, 121);
+  height: 100%;
+  border-bottom-right-radius: 5px !important;
+  text-align: center;
+  position: relative;
+  padding-left: 25%;
+}
+
+.gm-card-sub-rating {
+  min-width: 22px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.gm-card-sub-rating span {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.gm-card-rating .anticon-star {
+  color: gold !important;
+  margin-bottom: auto !important;
+  margin-top: auto;
+}

@@ -1,0 +1,122 @@
+.m-section {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.me-table-list {
+  padding: 10px 20px 30px;
+}
+
+.ant-table-wrapper {
+  border-radius: 10px;
+}
+
+.me-table-list table {
+  background-color: #001529 !important;
+  color: white;
+}
+
+.ant-table .ant-table-tbody > tr:hover > td {
+  background: unset;
+}
+
+.ant-table-thead tr .ant-table-cell {
+  background-color: #0a3d6d !important;
+  color: white !important;
+}
+
+.ant-table-tbody tr .ant-table-column-sort {
+  background-color: #001529 !important;
+  color: white !important;
+}
+
+.ant-table-row:hover {
+  background-color: #0a3d6d !important;
+}
+
+.btn-list {
+  background: none;
+  cursor: pointer;
+  width: 100%;
+  color: #1587ed;
+}
+
+.me-add-btn {
+  min-width: 50%;
+  background-color: #1890ff;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.me-add-btn:hover {
+  color: darkslategray;
+}
+
+.m-form {
+  width: 50%;
+  margin: auto;
+}
+
+.m-form .ant-row-center {
+  box-shadow: 5px 10px #001628;
+}
+
+.m-smp-img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.m-form-right {
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+}
+.m-form-submit {
+  margin: -10px;
+}
+.m-form-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #1890ff;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.m-form-button:hover {
+  background-color: #5aafff;
+}
+
+/* default styles here for older browsers. 
+       I tend to go for a 600px - 960px width max but using percentages
+    */
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  .m-section {
+    width: 100%;
+    padding: 0 3%;
+  }
+}
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+}
